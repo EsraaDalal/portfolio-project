@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "category": "Website",
+    "title": "File Manger",
+    "description": "A full-featured React-based web application designed to manage and control file access among multiple users working collaboratively on shared files. The system ensures that no two users can edit the same file simultaneously and provides advanced features for file versioning, notifications, and reporting.",
+    "thumbnail": "assets/img/portfolio/fie.jpg",
+    "gallery": [
+      "assets/img/portfolio/file1.png",
+      "assets/img/portfolio/file2.png",
+      "assets/img/portfolio/file3.png",
+      "assets/img/portfolio/file4.png",
+      "assets/img/portfolio/file5.png",
+      "assets/img/portfolio/file6.png"
+    ],
+       "technologies": [
+      "React.js",
+      "Axios (for API communication)",
+      "React Router DOM",
+      "React Toastify (for notifications)",
+      "Material UI (CircularProgress & LinearProgress components)",
+      "File-Saver (for file downloads and exports)",
+      "Pusher (for real-time notifications)",
+      "MySQL (database)",
+      "Laravel (backend)",
+      "Bootstrap",
+      "CSS3"
+    ],
+     "features": [
+      "File Locking Mechanism: Implements Check-In and Check-Out operations to prevent simultaneous edits.",
+      "Group-Based Access Control: Files are organized within groups, and users can only access files belonging to the groups they are members of.",
+      "Group Management: Group creators can invite users, approve new file uploads, and manage group permissions.",
+      "Parallel Check-In Validation: Supports multi-file check-ins while ensuring that all selected files are free before locking them.",
+      "Activity Logs & Reporting: Generates detailed logs of user and file activities, viewable per user or per file, with export options (CSV/PDF).",
+      "Automatic Backup: Maintains backup copies of files before and after every check-in/check-out operation.",
+      "Real-Time Notifications: Integrated Pusher to send instant updates to all group members when a file’s status changes.",
+      "Tracing and Auditing: Includes an admin dashboard for monitoring all user operations, file history, and modification details.",
+      "Responsive & User-Friendly UI: Built with usability in mind — works seamlessly across desktop, tablet, and mobile devices."
+    ],
+   
+    "url": "https://github.com/EsraaDalal/file-manager-"
+  },
+  {
+    "id": 2,
+    "category": "Website",
+    "title": "Movie Explorer",
+  "description": "An interactive React web app to browse and search movies using the TMDb API. It includes dynamic routing, smooth animations, and pagination for better navigation.",
+    "thumbnail": "assets/img/portfolio/mo.jpg",
+    "gallery": [
+      "assets/img/portfolio/movie 1.png",
+      "assets/img/portfolio/movie 2.png",
+      "assets/img/portfolio/movie 3.png"
+    ],
+     "technologies": [
+      "React.js",
+      "Axios",
+      "React Router DOM",
+      "React Paginate",
+      "React Reveal",
+      "Bootstrap",
+      "CSS3"
+    ],
+    "features": [
+      "Browse and search movies from the TMDb API",
+      "Dynamic routing between pages",
+      "Pagination using ReactPaginate",
+      "Axios for API data fetching",
+      "Animated transitions using React Reveal (Zoom)",
+      "Responsive design for all devices"
+    ],
+    "url": "https://github.com/EsraaDalal/movie-Explorer-"
+  },
+    {
+    "id": 3,
+    "category": "App",
+    "title": "Secure Parking Management System",
+  "description": "A Java-based secure parking management system designed using a client-server architecture. It enables users (employees and visitors) to register, log in, reserve parking spots, and make encrypted payments through a secure communication protocol.",
+    "thumbnail": "assets/img/portfolio/car.jpg",
+    "gallery": [
+      "assets/img/portfolio/ser1.png",
+      "assets/img/portfolio/ser2.png",
+      "assets/img/portfolio/ser3.png",
+      "assets/img/portfolio/ser4.png"
+
+    ],
+     "technologies": [
+      "Java SE – Core language for both client and server",
+      "Socket Programming (TCP/IP) – For real-time client-server communication"
+   
+    ],
+    "features": [
+      "Built using Java Socket Programming",
+      "Supported multi-client connections via multithreading",
+      "Added digital signatures for transaction integrity",
+      "Integrated SQL database for user management",
+      "Used BouncyCastle for advanced cryptographic functions"
+    ],
+    "url": "https://github.com/EsraaDalal/Secure-Parking-Management-System"
+  },
+  {
+    "id": 4,
+    "category": "App",
+    "title": "ToDo App",
+  "description": "Smart Task Manager is a Flutter-based mobile application designed to help users efficiently manage their daily tasks.Users can add, edit, and mark tasks as completed, with support for categories, notes, and date/time scheduling.The app provides a clean and modern UI built with Material Design, and stores data locally using SQLite (via sqflite), ensuring tasks persist between sessions.When a user checks a task’s box, it instantly moves to the “Completed Tasks” section with visual feedback (grayed text and faded icon).This design balances simplicity with a smooth user experience, ideal for productivity tracking.",
+    "thumbnail": "assets/img/portfolio/todo.png",
+    "gallery": [
+      "assets/img/portfolio/todo1.png",
+      "assets/img/portfolio/todo2.png",
+      "assets/img/portfolio/todo3.png"
+
+    ],
+     "technologies": [
+      "Flutter (Dart) – Cross-platform UI development",
+      "SQLite (sqflite) – Local database for task persistence",
+      "Path & Path Provider – Local file path management",
+      "Intl – Date & time formatting",
+      "Material Design – For UI layout and widgets"
+   
+    ],
+    "features": [
+      "Add new tasks with title, date, time, category, and notes",
+      "Mark tasks as completed with a visual update",
+      "Local data storage using SQLite (sqflite package)",
+      "Responsive, modern UI using Flutter Material Design",
+      "Date & Time pickers integrated via intl package"
+    ],
+    "url": "https://github.com/EsraaDalal/ToDo-App"
+  }
+
+]
